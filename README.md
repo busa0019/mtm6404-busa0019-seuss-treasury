@@ -27,4 +27,32 @@ A React-based web application that explores the wonderful world of Dr. Seuss thr
 - **Fetch API** - Data retrieval from Seussology API
 - **CSS3** - Custom styling and responsive layouts
 
-## 📁 Project Structure
+
+## 🚦 Quick Start
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/seuss-treasury.git
+cd seuss-treasury
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+Open your browser at http://localhost:5173
+
+🔗 API Integration
+This application consumes the Seussology API:
+
+Books endpoint: /api/books
+
+Book details: /api/books/{id}
+
+Random quotes: /api/quotes/random/10
