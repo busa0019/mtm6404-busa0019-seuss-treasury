@@ -46,13 +46,24 @@ npm install
 
 # Start development server
 npm run dev
-Open your browser at http://localhost:5173
+```
+Open your browser at:  ```http://localhost:5173```
 
-🔗 API Integration
-This application consumes the Seussology API:
+###  Build for Production
+ ```bash 
+ npm run build
+```
+###  🔗 API Integration
+- Books endpoint: ```/api/books```
 
-Books endpoint: /api/books
+- Book details: ```/api/books/{id}```
 
-Book details: /api/books/{id}
+- Random quotes: ```/api/quotes/random/10```
 
-Random quotes: /api/quotes/random/10
+---
+
+> "The more that you read, the more things you will know. The more that you learn, the more places you'll go." 
+> — Dr. Seuss
+
+Built with ❤️ for Dr. Seuss fans everywhere by Faozee
+
