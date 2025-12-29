@@ -38,7 +38,7 @@ A React-based web application that explores the wonderful world of Dr. Seuss thr
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/seuss-treasury.git
+git clone https://github.com/busa0019/mtm6404-busa0019-seuss-treasury.git
 cd seuss-treasury
 
 # Install dependencies
